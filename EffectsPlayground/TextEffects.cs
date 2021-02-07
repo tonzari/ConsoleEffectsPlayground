@@ -30,7 +30,7 @@ namespace EffectsPlayground
 
         public static void TypeLikeHuman(string message)
         {
-            int duration = 30;
+            int duration = 15;
             Random rnd = new Random();
 
             for (int i = 0; i < message.Length; i++)
@@ -39,6 +39,11 @@ namespace EffectsPlayground
                 {
                     Console.Write(message[i]);
                     Thread.Sleep(duration * 5 + rnd.Next(1, 100));
+                }
+                else if (message[i].Equals('.'))
+                {
+                    Console.Write(message[i]);
+                    Thread.Sleep(duration * 10 + rnd.Next(400, 1300));
                 }
                 else if (char.IsPunctuation(message[i]))
                 {
