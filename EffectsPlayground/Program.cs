@@ -24,13 +24,11 @@ namespace EffectsPlayground
 
                 Console.ReadKey();
 
-                TextEffects.Typewrite("An old familiar song starts to play...");
-                TextEffects.Typewrite("Press CTRL + C to quit or, ya know, just click the X");
+                TextEffects.Typewrite("\nAn old familiar song starts to play...");
+                TextEffects.Typewrite("\nPress CTRL + C to quit or, ya know, just click the X");
 
                 MusicPlayer.PlaySuperMarioThemeSong();
             }
-            
-            
         }
     }
 }
