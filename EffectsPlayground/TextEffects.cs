@@ -16,7 +16,16 @@ namespace EffectsPlayground
             }
         }
 
-        public static void TypewriteSound(string message)
+        public static void Typewrite(string message, int duration)
+        {
+            for (int i = 0; i < message.Length; i++)
+            {
+                Console.Write(message[i]);
+                Thread.Sleep(duration);
+            }
+        }
+
+        public static void TypewriteWithSounds(string message)
         {
             int duration = 30;
 
@@ -28,7 +37,7 @@ namespace EffectsPlayground
             }
         }
 
-        public static void TypeLikeHuman(string message)
+        public static void TypewriteHumanized(string message)
         {
             int duration = 15;
             Random rnd = new Random();
