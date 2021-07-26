@@ -20,8 +20,8 @@ namespace EffectsPlayground
 
                 Console.ReadKey();
 
-                TextEffects.TypewriteHumanized("An old familiar song starts to play...");
-                TextEffects.TypewriteHumanized("Press CTRL + C to quit or, ya know, just click the X");
+                TextEffects.Typewrite("An old familiar song starts to play...");
+                TextEffects.Typewrite("Press CTRL + C to quit or, ya know, just click the X");
 
                 MusicPlayer.PlaySuperMarioThemeSong();
             }
