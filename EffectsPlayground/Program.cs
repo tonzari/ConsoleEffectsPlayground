@@ -12,6 +12,10 @@ namespace EffectsPlayground
 
                 Console.ReadKey();
 
+                Console.WriteLine("WARNING: quick chirpy sounds coming up after you press any key. Prepare your volume.");
+
+                Console.ReadKey();
+
                 TextEffects.TypewriteWithSounds("\nHi. Now it's got sound! How cool is that? Annoying?");
 
                 Console.ReadKey();
