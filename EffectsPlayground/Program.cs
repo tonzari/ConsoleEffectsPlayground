@@ -12,7 +12,7 @@ namespace EffectsPlayground
 
                 Console.ReadKey();
 
-                Console.WriteLine("WARNING: quick chirpy sounds coming up after you press any key. Prepare your volume.");
+                Console.WriteLine("\nWARNING: quick chirpy sounds coming up after you press any key. Prepare your volume.");
 
                 Console.ReadKey();
 
